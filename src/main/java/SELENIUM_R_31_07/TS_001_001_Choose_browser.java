@@ -31,6 +31,6 @@ public class TS_001_001_Choose_browser {
         else {
             System.out.println("test case failed");
         }
-        driver.quit();
+
     }
 }
