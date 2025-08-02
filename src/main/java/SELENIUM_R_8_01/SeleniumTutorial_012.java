@@ -25,7 +25,10 @@ public class SeleniumTutorial_012 {
     driver.get("https://www.krushistore.com/");
 
     //LOCATORS
+    // Class Name
+    // Link Text
     driver.findElement(By.linkText("Solar Fence")).click();
+    // X-path
     driver.findElement(By.xpath("//*[@id='app-header']/div[2]/div/div[2]/div[2]/div/div[1]")).click();
     // driver.findElement(By.xpath("//*[contains(@class, 'w-[29px]')]")).click();
 
