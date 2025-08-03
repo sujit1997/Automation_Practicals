@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class TS001_TC01 {
+public class googletest {
     public static String browser = "chrome";
     public static WebDriver driver;
     public static void main(String[] args) {
@@ -22,10 +22,7 @@ public class TS001_TC01 {
             driver = new EdgeDriver();
         }
         driver.manage().window().maximize();
-        driver.get("https://www.krushistore.com/");
-        driver.findElement(By.xpath("//*[contains(@class,'w-[29px]')]")).click();
-        driver.findElement(By.id("name")).sendKeys("testing");
-        driver.findElement(By.id("mobile")).sendKeys("9325825024");
-        //driver.quit();
+        driver.get("https://www.google.com/");
+        driver.findElement(By.xpath("//textarea[@class=\"gLFyf\"]")).sendKeys("great");
     }
 }
