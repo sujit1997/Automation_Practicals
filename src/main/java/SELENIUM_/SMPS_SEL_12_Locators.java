@@ -1,4 +1,4 @@
-package SELENIUM_R_11_10;
+package SELENIUM_;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
