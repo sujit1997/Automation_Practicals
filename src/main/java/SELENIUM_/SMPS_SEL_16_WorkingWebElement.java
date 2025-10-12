@@ -47,7 +47,7 @@ public class SMPS_SEL_16_WorkingWebElement {
         System.out.println(driver.findElement(By.id("gform_submit_button_1")).getTagName());
 
         //Get Text
-        System.out.println(driver.findElement(By.id("gform_submit_button_1")).getText());
+        System.out.println(driver.findElement(By.className("mb-5")).getText());
 
         //isDisplayed
         System.out.println(driver.findElement(By.id("gform_submit_button_1")).isDisplayed());
