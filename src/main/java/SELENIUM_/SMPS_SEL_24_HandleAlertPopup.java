@@ -1,6 +1,7 @@
 package SELENIUM_;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import net.bytebuddy.implementation.bytecode.Throw;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -10,7 +11,7 @@ public class SMPS_SEL_24_HandleAlertPopup {
     public static String browser = "chrome";
     public static WebDriver driver;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // ✅ Setup browser driver
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
@@ -33,7 +34,7 @@ public class SMPS_SEL_24_HandleAlertPopup {
 
         // ✅ Click the button that triggers the alert
         driver.findElement(By.xpath("//button[text()='Try it']")).click();
-
+        Thread.sleep(5000);
         // ✅ Handle alert popup
         Alert alert = driver.switchTo().alert();
         System.out.println("Alert text: " + alert.getText());
