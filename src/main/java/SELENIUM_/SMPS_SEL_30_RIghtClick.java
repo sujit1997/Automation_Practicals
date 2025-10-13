@@ -1,6 +1,5 @@
 package SELENIUM_;
 
-import com.sun.jna.platform.win32.AccCtrl;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,8 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
-public class SMPS_SEL_26_MouseHover {
-    public static String browser = "chrome";
+public class SMPS_SEL_30_RIghtClick { public static String browser = "chrome";
     public static WebDriver driver;
 
     public static void main(String[] args) throws InterruptedException {
@@ -28,12 +26,13 @@ public class SMPS_SEL_26_MouseHover {
             driver = new EdgeDriver();
         }
         driver.manage().window().maximize();
-        driver.get("https://www.ebay.com/");
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"vl-flyout-nav\"]/ul/li[4]/a"));
+        driver.get("https://jqueryui.com/resources/demos/slider/colorpicker.html");
 
-        Actions action = new Actions(driver);
-        action.moveToElement(element).perform();
-    Thread.sleep(1000);
-    driver.quit();
+        WebElement rectangle = driver.findElement(By.xpath("//*[@id=\"swatch\"]"));
+        Actions actions = new Actions(driver);
+        actions.contextClick(rectangle).perform();
+
+        driver.close();
+
     }
 }
