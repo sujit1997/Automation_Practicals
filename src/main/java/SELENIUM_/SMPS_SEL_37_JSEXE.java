@@ -38,13 +38,11 @@ public class SMPS_SEL_37_JSEXE {
         System.out.println(title);
 
         //click the button
-        driver.switchTo().frame("iframeResult");
-        jsecex.executeScript("myFunction()");
-        Thread.sleep(2000);
-        driver.switchTo().alert().accept();
+//        driver.switchTo().frame("iframeResult");
+//        jsecex.executeScript("myFunction()");
+//        Thread.sleep(2000);
+//        driver.switchTo().alert().accept();
 
-        //Highlight
-        //jsecex.executeScript()
 
         //Scroll
         driver.navigate().to("https://www.w3schools.com/");
