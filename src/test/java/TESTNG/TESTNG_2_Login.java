@@ -2,7 +2,7 @@ package TESTNG;
 
 import org.testng.annotations.Test;
 
-public class TESTNG_1_Login {
+public class TESTNG_2_Login {
 
     @Test(priority = 1,description = "This is first test")
     public void loginTest(){
