@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="28" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This is test 1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-14T13:18:04 IST" name="Default Suite" finished-at="2025-10-14T13:18:17 IST" duration-ms="12610">
+    <groups>
+      <group name="bvt">
+        <method signature="TESTNG_6_GroupTestCases.signup()[pri:2, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" name="signup" class="TESTNG.TESTNG_6_GroupTestCases"/>
+        <method signature="TESTNG_6_GroupTestCases.login()[pri:3, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" name="login" class="TESTNG.TESTNG_6_GroupTestCases"/>
+      </group> <!-- bvt -->
+      <group name="functional">
+        <method signature="TESTNG_10_Annotation_child.test3()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" name="test3" class="TESTNG.TESTNG_10_Annotation_child"/>
+        <method signature="TESTNG_9_Annotations.test3()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" name="test3" class="TESTNG.TESTNG_9_Annotations"/>
+        <method signature="TESTNG_6_GroupTestCases.browser()[pri:1, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" name="browser" class="TESTNG.TESTNG_6_GroupTestCases"/>
+        <method signature="TESTNG_6_GroupTestCases.logout()[pri:4, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" name="logout" class="TESTNG.TESTNG_6_GroupTestCases"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="TESTNG_10_Annotation_child.test4()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" name="test4" class="TESTNG.TESTNG_10_Annotation_child"/>
+        <method signature="TESTNG_9_Annotations.test4()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" name="test4" class="TESTNG.TESTNG_9_Annotations"/>
+        <method signature="TESTNG_6_GroupTestCases.signup()[pri:2, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" name="signup" class="TESTNG.TESTNG_6_GroupTestCases"/>
+        <method signature="TESTNG_6_GroupTestCases.login()[pri:3, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" name="login" class="TESTNG.TESTNG_6_GroupTestCases"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-10-14T13:18:04 IST" name="Automation_Practicals" finished-at="2025-10-14T13:18:17 IST" duration-ms="12610">
+      <class name="TESTNG.TESTNG_18_Report">
+        <test-method signature="reporttest1()[pri:0, instance:TESTNG.TESTNG_18_Report@40844aab]" started-at="2025-10-14T13:18:07 IST" name="reporttest1" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[This is test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporttest1 -->
+        <test-method signature="reporttest2()[pri:0, instance:TESTNG.TESTNG_18_Report@40844aab]" started-at="2025-10-14T13:18:07 IST" name="reporttest2" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporttest2 -->
+        <test-method signature="reporttest3()[pri:0, instance:TESTNG.TESTNG_18_Report@40844aab]" started-at="2025-10-14T13:18:07 IST" name="reporttest3" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporttest3 -->
+        <test-method signature="reporttest4()[pri:0, instance:TESTNG.TESTNG_18_Report@40844aab]" started-at="2025-10-14T13:18:07 IST" name="reporttest4" finished-at="2025-10-14T13:18:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporttest4 -->
+      </class> <!-- TESTNG.TESTNG_18_Report -->
+      <class name="TESTNG.TESTNG_2_Login">
+        <test-method signature="loginTest()[pri:1, instance:TESTNG.TESTNG_2_Login@4a194c39]" started-at="2025-10-14T13:18:09 IST" name="loginTest" description="This is first test" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logout()[pri:2, instance:TESTNG.TESTNG_2_Login@4a194c39]" started-at="2025-10-14T13:18:09 IST" name="logout" description="This is second test" finished-at="2025-10-14T13:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TESTNG.TESTNG_2_Login -->
+      <class name="TESTNG.TESTNG_11_DataProvider">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_DataProvider@4b41e4dd]" started-at="2025-10-14T13:18:07 IST" name="test" data-provider="dataset" finished-at="2025-10-14T13:18:07 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_DataProvider@4b41e4dd]" started-at="2025-10-14T13:18:07 IST" name="test" data-provider="dataset" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_DataProvider@4b41e4dd]" started-at="2025-10-14T13:18:07 IST" name="test" data-provider="dataset" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_DataProvider@4b41e4dd]" started-at="2025-10-14T13:18:07 IST" name="test" data-provider="dataset" finished-at="2025-10-14T13:18:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TESTNG.TESTNG_11_DataProvider -->
+      <class name="TESTNG.TESTNG_11_a_DataProvider">
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_a_DataProvider@74960bfa]" started-at="2025-10-14T13:18:07 IST" name="test1" data-provider="dataset1" finished-at="2025-10-14T13:18:07 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_a_DataProvider@74960bfa]" started-at="2025-10-14T13:18:07 IST" name="test1" data-provider="dataset1" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_a_DataProvider@74960bfa]" started-at="2025-10-14T13:18:07 IST" name="test1" data-provider="dataset1" finished-at="2025-10-14T13:18:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TESTNG.TESTNG_11_a_DataProvider@74960bfa]" started-at="2025-10-14T13:18:07 IST" name="test1" data-provider="dataset1" finished-at="2025-10-14T13:18:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TESTNG.TESTNG_11_a_DataProvider -->
+      <class name="TESTNG.TESTNG_3_Annotation">
+        <test-method is-config="true" signature="login()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:07 IST" name="login" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="connectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method signature="test1()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="test1" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="disconnectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="connectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method signature="test2()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="test2" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="disconnectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="connectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method signature="test3()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="test3" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="disconnectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="connectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method signature="test4()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="test4" finished-at="2025-10-14T13:18:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="disconnectDB()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:09 IST" name="disconnectDB" finished-at="2025-10-14T13:18:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectDB -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TESTNG.TESTNG_3_Annotation@59252cb6]" started-at="2025-10-14T13:18:17 IST" name="logout" finished-at="2025-10-14T13:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TESTNG.TESTNG_3_Annotation -->
+      <class name="TESTNG.TESTNG_4_Assertion">
+        <test-method signature="gettitle()[pri:0, instance:TESTNG.TESTNG_4_Assertion@6b3e12b5]" started-at="2025-10-14T13:18:09 IST" name="gettitle" finished-at="2025-10-14T13:18:13 IST" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitle -->
+        <test-method signature="titleTest()[pri:0, instance:TESTNG.TESTNG_4_Assertion@6b3e12b5]" started-at="2025-10-14T13:18:13 IST" name="titleTest" finished-at="2025-10-14T13:18:16 IST" duration-ms="3701" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd8b44d8f724bd76c3c3f4a4c6d45afc, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\sujit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60312/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd8b44d8f724bd76c3c3f4a4c6d45afc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.77)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd8b44d8f724bd76c3c3f4a4c6d45afc, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.77, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\sujit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60312}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60312/devtoo..., se:cdpVersion: 141.0.7390.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bd8b44d8f724bd76c3c3f4a4c6d45afc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:318)
+at TESTNG.TESTNG_4_Assertion.titleTest(TESTNG_4_Assertion.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+      </class> <!-- TESTNG.TESTNG_4_Assertion -->
+      <class name="TESTNG.TESTNG_10_Annotation">
+        <test-method is-config="true" signature="datasetup()[pri:0, instance:TESTNG.TESTNG_10_Annotation@6b8d96d9]" started-at="2025-10-14T13:18:04 IST" name="datasetup" finished-at="2025-10-14T13:18:04 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datasetup -->
+        <test-method is-config="true" signature="datateardown()[pri:0, instance:TESTNG.TESTNG_10_Annotation@6b8d96d9]" started-at="2025-10-14T13:18:17 IST" name="datateardown" finished-at="2025-10-14T13:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datateardown -->
+      </class> <!-- TESTNG.TESTNG_10_Annotation -->
+      <class name="TESTNG.TESTNG_1_BrowserSelect">
+        <test-method is-config="true" signature="selectBrowser()[pri:0, instance:TESTNG.TESTNG_1_BrowserSelect@10ded6a9]" started-at="2025-10-14T13:18:04 IST" name="selectBrowser" finished-at="2025-10-14T13:18:07 IST" duration-ms="2297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method signature="test()[pri:0, instance:TESTNG.TESTNG_1_BrowserSelect@10ded6a9]" started-at="2025-10-14T13:18:07 IST" name="test" finished-at="2025-10-14T13:18:09 IST" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:TESTNG.TESTNG_1_BrowserSelect@10ded6a9]" started-at="2025-10-14T13:18:17 IST" name="tearDownTest" finished-at="2025-10-14T13:18:17 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- TESTNG.TESTNG_1_BrowserSelect -->
+      <class name="TESTNG.TESTNG_10_Annotation_child">
+        <test-method is-config="true" signature="test1()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" started-at="2025-10-14T13:18:07 IST" name="test1" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" started-at="2025-10-14T13:18:07 IST" name="test3" finished-at="2025-10-14T13:18:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="test2()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" started-at="2025-10-14T13:18:07 IST" name="test2" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test4()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" started-at="2025-10-14T13:18:07 IST" name="test4" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="test6()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" started-at="2025-10-14T13:18:07 IST" name="test6" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="test5()[pri:0, instance:TESTNG.TESTNG_10_Annotation_child@56f0cc85]" started-at="2025-10-14T13:18:17 IST" name="test5" finished-at="2025-10-14T13:18:17 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- TESTNG.TESTNG_10_Annotation_child -->
+      <class name="TESTNG.TESTNG_9_Annotations">
+        <test-method is-config="true" signature="test2()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" started-at="2025-10-14T13:18:07 IST" name="test2" finished-at="2025-10-14T13:18:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="test1()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" started-at="2025-10-14T13:18:17 IST" name="test1" finished-at="2025-10-14T13:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" started-at="2025-10-14T13:18:17 IST" name="test3" finished-at="2025-10-14T13:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" started-at="2025-10-14T13:18:17 IST" name="test4" finished-at="2025-10-14T13:18:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="test5()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" started-at="2025-10-14T13:18:17 IST" name="test5" finished-at="2025-10-14T13:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="test6()[pri:0, instance:TESTNG.TESTNG_9_Annotations@613a8ee1]" started-at="2025-10-14T13:18:17 IST" name="test6" finished-at="2025-10-14T13:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- TESTNG.TESTNG_9_Annotations -->
+      <class name="TESTNG.TESTNG_6_GroupTestCases">
+        <test-method signature="browser()[pri:1, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" started-at="2025-10-14T13:18:16 IST" name="browser" description="choose your browser" finished-at="2025-10-14T13:18:16 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="signup()[pri:2, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" started-at="2025-10-14T13:18:16 IST" name="signup" finished-at="2025-10-14T13:18:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:3, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" started-at="2025-10-14T13:18:16 IST" name="login" finished-at="2025-10-14T13:18:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:4, instance:TESTNG.TESTNG_6_GroupTestCases@1338fb5]" started-at="2025-10-14T13:18:17 IST" name="logout" finished-at="2025-10-14T13:18:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TESTNG.TESTNG_6_GroupTestCases -->
+    </test> <!-- Automation_Practicals -->
+  </suite> <!-- Default Suite -->
+</testng-results>

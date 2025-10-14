@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Automation_Practicals(failed)">
+    <classes>
+      <class name="TESTNG.TESTNG_4_Assertion">
+        <methods>
+          <include name="titleTest"/>
+        </methods>
+      </class> <!-- TESTNG.TESTNG_4_Assertion -->
+    </classes>
+  </test> <!-- Automation_Practicals(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
