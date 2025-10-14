@@ -2,7 +2,7 @@ package TESTNG;
 
 import org.testng.annotations.*;
 
-public class TESTNG_9_Annotation_child extends TESTNG_9_Annotation{
+public class TESTNG_9_Annotations {
     @BeforeClass
     public void test1(){
         System.out.println("before class");
